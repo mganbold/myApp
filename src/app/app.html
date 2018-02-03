@@ -1,0 +1,10 @@
+<ion-nav #content [root]="rootPage" swipeBackEnabled="false"></ion-nav>
+<!--Side Menu-->
+<ion-menu
+  type="overlay"
+  [content]="content"
+  (ionClose)="_closeMenu()"
+  (ionDrag)="_openMenu()"
+>
+  <menu-items></menu-items>
+</ion-menu>

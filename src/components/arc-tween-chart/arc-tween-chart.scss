@@ -1,0 +1,21 @@
+arc-tween-chart {
+	.middle-text {
+		font-size: 18px;
+	}
+
+	.chart-container {
+		position: relative;
+    padding: 0 0 4vh 0;
+
+		.svg-icon {
+			position: absolute;
+      margin: auto;
+			top: 26%;
+			left: 0;
+			right: 0;
+			width: auto;
+			height: 12.25vh;
+      max-height: 85px;
+		}
+	}
+}

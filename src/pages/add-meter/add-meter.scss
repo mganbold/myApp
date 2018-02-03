@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+
+page-add-meter {
+  .toolbar-content {
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  ion-navbar {
+    height: 8vh;
+  }
+
+  div.toolbar-title {
+    color: $navbar-text !important;
+    padding-right: 5vh;
+    font-size: 20px;
+  }
+
+  .setup-title{
+    text-align: center;
+    padding-right: 15vw;
+  }
+
+  .cancel-btn {
+    font-size: 1.5rem;
+    width:15vw;
+    text-transform: none;
+  }
+
+  .meter-form-content {
+    position: relative;
+  }
+
+}

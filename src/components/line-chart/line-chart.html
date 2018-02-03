@@ -1,0 +1,11 @@
+<div class="chart-container">
+  <svg preserveAspectRatio="xMidYMid meet"></svg>
+  <div class="no-data" *ngIf="(!data || !data.length) && !loading">
+    {{ noDataText }}
+  </div>
+
+  <div *ngIf="loading">
+    <app-spinner [text]="">
+    </app-spinner>
+  </div>
+</div>

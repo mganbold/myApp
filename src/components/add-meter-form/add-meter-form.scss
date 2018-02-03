@@ -1,0 +1,116 @@
+@import "../../styles/variables";
+
+add-meter-form {
+  color: $header-text;
+  .text-container {
+    padding: 0;
+  }
+
+  .text-container > h4 {
+    padding: 12%;
+    text-align: center;
+  }
+
+  .list-container {
+    width: 100%;
+  }
+
+  .util-select {
+    margin: 1vh !important;
+    display: flex;
+    align-content: center;
+  }
+
+  .utilitype-svg {
+    width: 3vh;
+  }
+
+  .unselected-util-type {
+    background-color: #CCCFD4 !important;
+  }
+
+  .item-inner {
+    padding: 0 8px;
+  }
+
+  .datetime {
+    margin-left: 4rem !important;
+  }
+
+  ion-item.meter-type-option,
+  ion-item.meter-number,
+  ion-item.provider-option,
+  ion-item.spending-goal,
+  ion-item.meter-name {
+    padding-left: 0 !important;
+  }
+
+  .invalid {
+    border-bottom: 2px solid red;
+  }
+
+  .meter-number ion-label,
+  .provider-option ion-label,
+  .spending-goal ion-label,
+  .meter-name ion-label {
+    margin-left: 2rem !important;
+  }
+
+  .meter-number ion-input,
+  .spending-goal ion-input,
+  .meter-name ion-input {
+    margin-left: 4rem;
+    color: $input-text;
+  }
+
+  .list-container button {
+    padding: 0 !important;
+  }
+
+  .utility-type {
+    padding: 0;
+  }
+
+  .util-type-title {
+    padding-left: 16px;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+
+  .button-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .form-nav-button {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 4px;
+    font-size: 20px;
+    height: 10vh;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    flex: 1;
+  }
+
+  .form-nav-button-back {
+    margin: 0;
+    width: 50%;
+    padding-bottom: 4px;
+    font-size: 20px;
+    height: 10vh;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+    color: $vutiliti-blue;
+    text-transform: none;
+  }
+}

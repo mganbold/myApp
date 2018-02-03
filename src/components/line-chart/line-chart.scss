@@ -1,0 +1,42 @@
+line-chart {
+  .chart-container {
+    position: relative;
+    margin-left: 7px;
+
+    .text-unit {
+      font-size: 8vh;
+      opacity: .2;
+    }
+
+    .no-data {
+      position: absolute;
+      top: 40%;
+      left: 44%;
+    }
+
+    .tick line {
+      opacity: .1;
+    }
+
+    .solid-line {
+      fill: none;
+    }
+
+    .dotted-line {
+      opacity: .5;
+      stroke-dasharray: 5,5;
+      fill: none;
+    }
+
+    .area {
+      opacity: .2;
+    }
+
+    .axis-color {
+      -webkit-text-stroke-color: #535969;
+      font-size: 1.5vh;
+      font-weight: lighter;
+    }
+  }
+
+}

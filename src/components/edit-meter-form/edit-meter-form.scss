@@ -1,0 +1,71 @@
+@import "../../styles/variables";
+
+edit-meter-form {
+  .form-header {
+    margin: 0 !important;
+    background-color: #d5dde2;
+  }
+
+  ion-navbar {
+    height: 4vh;
+    padding: 4px !important;
+    min-height: 45px !important;
+    color: #999EA8 !important;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .header-ios .toolbar-ios:last-child .toolbar-background-ios {
+    border-bottom: none !important;
+  }
+
+  .cancel-btn {
+    font-size: 1.5rem;
+    width:15vw;
+    text-transform: none;
+  }
+
+  .edit-title{
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .delete-btn {
+    font-size: 1.5rem;
+    width: 15vw;
+    text-transform: none;
+  }
+
+  ion-content {
+    position: relative;
+    .scroll-content {
+      background-color: #FFF;
+      overflow-y: hidden;
+    }
+
+    form {
+      margin-top: calc(5vh + 8px);
+      width: 100%;
+    }
+
+    ion-item {
+      color: $header-text !important;
+      padding-right: 16px !important;
+    }
+
+    ion-input .text-input {
+      margin-bottom: 4px !important;
+    }
+  }
+
+  .save-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.5rem;
+    background-color: $navigation-icon;
+    color: $white;
+    height: 45px;
+    width: 100%;
+  }
+}
