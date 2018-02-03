@@ -1,4 +1,5 @@
 npm install
+
 npm install ionic-angular {latest_version}
 
 
