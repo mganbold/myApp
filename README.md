@@ -1,3 +1,7 @@
+npm install
+npm install ionic-angular {latest_version}
+
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
